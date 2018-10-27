@@ -1,5 +1,5 @@
 # Aleth: Ethereum C++ client, tools and libraries.
-# Copyright 2018 Aleth Autors.
+# Copyright 2018 Aleth Authors.
 # Licensed under the GNU General Public License, Version 3. See the LICENSE file.
 
 cmake_minimum_required(VERSION 3.5.1)
@@ -39,8 +39,8 @@ option(HUNTER_RUN_UPLOAD "Upload binaries to the cache server" ${run_upload})
 
 include(HunterGate)
 HunterGate(
-    URL "https://github.com/ruslo/hunter/archive/v0.21.16.tar.gz"
-    SHA1 "aa1faccd24f33dd2c368f85a4e9ca2e5d9c249cb"
+    URL "https://github.com/ruslo/hunter/archive/v0.23.38.tar.gz"
+    SHA1 "ffd013590c9f87b505a350887973af5bd8b68e4c"
     LOCAL
 )
 
